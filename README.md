@@ -1,7 +1,7 @@
 # Real Inspire API
 
 [![CI](https://github.com/mohamadayash22/real-inspire/actions/workflows/ci.yml/badge.svg)](https://github.com/mohamadayash22/real-inspire/actions/workflows/ci.yml)
-![GitHub License](https://img.shields.io/github/license/mohamadayash22/real-inspire)
+[![License](https://img.shields.io/badge/license-MIT-green)](./LICENSE)
 
 Free and open source inspirational quotes API.
 This API offers an extensive collection of quotes sourced from various authors.
