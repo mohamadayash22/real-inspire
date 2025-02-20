@@ -9,7 +9,7 @@ This API offers an extensive collection of quotes sourced from various authors.
 ### API Server
 
 ```
-https://api.realinspire.tech/v1/
+https://api.realinspire.live/v1/
 ```
 
 ### API Documentation
@@ -54,25 +54,25 @@ Array<{
 
 **Examples**
 
-Get a single random quote [try in browser](https://api.realinspire.tech/v1/quotes/random)
+Get a single random quote [try in browser](https://api.realinspire.live/v1/quotes/random)
 
 ```HTTP
 GET /quotes/random
 ```
 
-Get 5 random quotes [try in browser](https://api.realinspire.tech/v1/quotes/random?limit=5)
+Get 5 random quotes [try in browser](https://api.realinspire.live/v1/quotes/random?limit=5)
 
 ```HTTP
 GET /quotes/random?limit=5
 ```
 
-Random quote with maximum length of 100 characters [try in browser](https://api.realinspire.tech/v1/quotes/random?maxLength=100)
+Random quote with maximum length of 100 characters [try in browser](https://api.realinspire.live/v1/quotes/random?maxLength=100)
 
 ```HTTP
 GET /quotes/random?maxLength=100
 ```
 
-Random quote with a length between 100 and 150 characters [try in browser](https://api.realinspire.tech/v1/quotes/random?minLength=100&maxLength=150)
+Random quote with a length between 100 and 150 characters [try in browser](https://api.realinspire.live/v1/quotes/random?minLength=100&maxLength=150)
 
 ```HTTP
 GET /quotes/random?minLength=100&maxLength=150
@@ -126,19 +126,19 @@ List all quotes matching a given query. By default, this will return a paginated
 
 **Examples**
 
-Get the first page of quotes [try in browser](https://api.realinspire.tech/v1/quotes)
+Get the first page of quotes [try in browser](https://api.realinspire.live/v1/quotes)
 
 ```HTTP
 GET /quotes
 ```
 
-Get quotes by a specific author [try in browser](https://api.realinspire.tech/v1/quotes?author=albert-einstein)
+Get quotes by a specific author [try in browser](https://api.realinspire.live/v1/quotes?author=albert-einstein)
 
 ```HTTP
 GET /quotes?author=albert-einstein
 ```
 
-Get quotes sorted by length in descending order [try in browser](https://api.realinspire.tech/v1/quotes?sortBy=length:desc)
+Get quotes sorted by length in descending order [try in browser](https://api.realinspire.live/v1/quotes?sortBy=length:desc)
 
 ```HTTP
 GET /quotes?sortBy=length:desc
@@ -190,19 +190,19 @@ List all authors matching a given query. Be default, this will return a paginate
 
 **Examples**
 
-Get the first page of authors [try in browser](https://api.realinspire.tech/v1/authors)
+Get the first page of authors [try in browser](https://api.realinspire.live/v1/authors)
 
 ```HTTP
 GET /authors
 ```
 
-Get all authors sorted alphabetically by name [try in browser](https://api.realinspire.tech/v1/authors?sortBy=name:asc)
+Get all authors sorted alphabetically by name [try in browser](https://api.realinspire.live/v1/authors?sortBy=name:asc)
 
 ```HTTP
 GET /authors?sortBy=name:asc
 ```
 
-Get all authors sorted by the number of quotes in descending order [try in browser](https://api.realinspire.tech/v1/authors?sortBy=quoteCount:desc)
+Get all authors sorted by the number of quotes in descending order [try in browser](https://api.realinspire.live/v1/authors?sortBy=quoteCount:desc)
 
 ```HTTP
 GET /authors?sortBy=quoteCount:desc
