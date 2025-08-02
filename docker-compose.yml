@@ -1,9 +1,7 @@
-version: '3.8'
-
 services:
   api:
     image: mohamadayash22/real-inspire:latest
-    container_name: real-inspire
+    container_name: api
     ports:
       - 3000:3000
     command: node server.js
